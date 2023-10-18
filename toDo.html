@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
     <link rel="stylesheet" href="./todo.css">
-  </head>
-  <body>
+</head>
+<body>
     <div class="header">
         <h2>To Do List</h2>
-        <input type="text" id="listInput" placeholder="Title...">
-        <span onclick="newListItem()" class="addBtn">Add</span>
+        <input type="text" id="myInput" placeholder="Task...">
+        <span class="addBtn" id="addButton">Add</span>
     </div>
 
-    <ul id="myList"></ul>
-	<script src="todo.js"></script>
-  </body>
+    <div id="error-message" class="error-message"></div>
+    <ul id="myUL"></ul>
+
+    <script src="todo.js"></script>
+</body>
 </html>
