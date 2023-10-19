@@ -11,7 +11,7 @@ ul {
     background-color:#A7C7E7;
     padding: 30px 40px;
     text-align: center;
-    width: 50%;
+    width: 38%;
 }
 
 .header:after {
@@ -69,7 +69,7 @@ h2 {
   ul li {
     cursor: pointer;
     position: relative;
-    width: 50%;
+    width: 38%;
     padding: 12px 8px 12px 40px;
     background: #eee;
     font-size: 18px;
