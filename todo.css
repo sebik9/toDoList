@@ -48,7 +48,7 @@ h2 {
   }
 
   .addBtn:hover {
-    background-color: #3aa03a;
+    background-color: green;
     color: white;
     transition: 0.3s;
   }
@@ -83,15 +83,15 @@ h2 {
   }
 
   ul li.checked {
-    background: #3aa03a;
-    color: black;
+    background: #888;
+    color: #fff;
     text-decoration: line-through;
   }
 
   ul li.checked::before {
     content: '';
     position: absolute;
-    border-color: black;
+    border-color: #fff;
     border-style: solid;
     border-width: 0 2px 2px 0;
     top: 10px;
@@ -115,7 +115,4 @@ h2 {
     transition: 0.3s;
   }
 
-  .error-message {
-    color: red;    
-  }
   
