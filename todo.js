@@ -1,11 +1,11 @@
 //global declaration for X symbol later used
-const closeIcon = "\u00D7";
+const CLOSE_ICON = "\u00D7";
 
 //functio that appends close button to created element accepts li as element
 function createCloseButton(element) {
     const span = document.createElement("SPAN");
     span.className = "close";
-    span.appendChild(document.createTextNode(closeIcon));
+    span.appendChild(document.createTextNode(CLOSE_ICON));
     element.appendChild(span);
     span.onclick = function() {
         const div = this.parentElement;
